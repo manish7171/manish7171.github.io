@@ -219,12 +219,18 @@ h2 {
 .decorator::after {
   position: absolute;
   top: calc(var(--decorator-outer-offset-top) + var(--decorator-border-width));
-  left: calc(var(--decorator-outer-offset-left) + var(--decorator-border-width));
+  left: calc(
+    var(--decorator-outer-offset-left) + var(--decorator-border-width)
+  );
   content: " ";
   display: block;
   width: calc(var(--decorator-outer-dim) - (var(--decorator-border-width) * 2));
-  height: calc(var(--decorator-outer-dim) - (var(--decorator-border-width) * 2));
-  border-radius: calc((var(--decorator-outer-dim) - (var(--decorator-border-width) * 2)) / 2);
+  height: calc(
+    var(--decorator-outer-dim) - (var(--decorator-border-width) * 2)
+  );
+  border-radius: calc(
+    (var(--decorator-outer-dim) - (var(--decorator-border-width) * 2)) / 2
+  );
   background-color: #555;
 }
 
