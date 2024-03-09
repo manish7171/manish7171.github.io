@@ -172,6 +172,7 @@ h2 {
 .blocks {
   display: flex;
   flex-flow: row nowrap;
+  margin-top: 15px;
 }
 
 .blocks > div {
