@@ -33,7 +33,8 @@ body {
   width: var(--page-width);
   height: var(--page-height);
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: sans-serif;
   font-weight: 300;
   line-height: 1.3;
   color: #444;
@@ -55,7 +56,7 @@ li {
   /* float: left; */
   /* width: var(--main-width); */
   padding: 0.25in 0.25in 0 0.25in;
-  font-size: 7pt;
+  /* font-size: 7pt; */
 }
 
 #wrapper {
@@ -288,6 +289,7 @@ h2 {
 .details .place {
   float: left;
   font-size: 7.5pt;
+  font-weight: bold;
 }
 
 .details .location {
@@ -357,7 +359,7 @@ h2 {
 #contact ul {
   margin-top: 0.05in;
   padding-left: 0;
-  font-family: "Source Code Pro";
+  /* font-family: "Source Code Pro"; */
   font-weight: 400;
   line-height: 1.75;
 }
@@ -365,6 +367,7 @@ h2 {
 #contact li > i {
   width: 9pt; /* for text alignment */
   text-align: right;
+  padding-right: 0.05in;
 }
 
 .skills {
