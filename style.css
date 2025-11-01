@@ -33,8 +33,8 @@ body {
   width: var(--page-width);
   height: var(--page-height);
   margin: 0;
-  /* font-family: "Open Sans", sans-serif; */
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
+  /*font-family: sans-serif;*/
   font-weight: 300;
   line-height: 1.3;
   color: #444;
@@ -61,7 +61,6 @@ li {
 
 #wrapper {
   display: grid;
-  grid-template-columns: 3fr 1fr;
 }
 
 #sidebar {
@@ -266,6 +265,12 @@ h2 {
 
 .details header {
   color: #000;
+}
+
+.details .sub-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .details h3 {
