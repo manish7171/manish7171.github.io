@@ -64,6 +64,7 @@ li {
 
 #wrapper {
   display: grid;
+  grid-template-columns: 3fr 1fr;
 }
 
 #sidebar {
@@ -268,12 +269,6 @@ h2 {
 
 .details header {
   color: #000;
-}
-
-.details .sub-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .details h3 {
