@@ -33,8 +33,11 @@ body {
   width: var(--page-width);
   height: var(--page-height);
   margin: 0;
-  font-family: "Open Sans", sans-serif;
-  /*font-family: sans-serif;*/
+  font-family: 'JetBrains Mono', monospace;;
+  /*font-family: 'Inter', sans-serif;*/
+  /*font-family: 'Plus Jakarta Sans', sans-serif;*/
+  /*font-family: 'DM Mono', monospace;*/
+  /*font-family: "Open Sans", sans-serif;*/
   font-weight: 300;
   line-height: 1.3;
   color: #444;
@@ -364,7 +367,7 @@ h2 {
 #contact ul {
   margin-top: 0.05in;
   padding-left: 0;
-  /* font-family: "Source Code Pro"; */
+  /*font-family: "Source Code Pro";*/
   font-weight: 400;
   line-height: 1.75;
 }
